@@ -1,0 +1,98 @@
+/*.navbar {
+  height: 80px;
+  background-color: #191919;
+
+ .wrapper {
+   padding: 10px 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   .item {
+     display: flex;
+     align-items: center;
+     font-size: 18px;
+   }
+
+   .left {
+     display: flex;
+     align-items: center;
+     gap: 25px;
+   }
+   .center {
+     font-size: 30px;
+     letter-spacing: 2px;
+   }
+   .right {
+     display: flex;
+     align-items: center;
+     gap: 25px;
+
+     .icons {
+       display: flex;
+       gap: 15px;
+       color: red;
+       cursor: pointer;
+
+       .cartIcon {
+         position: relative;
+
+         span {
+           font-size: 12px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: #2879fe;
+           color: #fff;
+           position: absolute;
+           right: -10px;
+           top: -10px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+         }
+       }
+     }
+   }
+ }
+}
+
+
+
+
+
+
+input{
+  color:#fff;
+}
+*/
+
+.rounded-input {
+  border-radius: 20px;
+}
+
+.navbar {
+  background-color: gray;
+  height: 80px;
+}
+
+/*هذي تابعة عدد الحوايج اللي زدتهم */
+.cart-items { 
+  position: absolute;
+  top: 18px;
+   right: 118px;
+  /* Pour le positionner à droite de l'icône */
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+ 
